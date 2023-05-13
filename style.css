@@ -19,9 +19,10 @@ body{
     background-color: #E5E5E5 ;
     position: absolute;
     width: 577px;
-    height: 48px;
     left: 240px;
     top: 168px;
+    box-sizing: border-box;
+    border: none;
 
     font-family: 'Inter';
     font-style: normal;
@@ -30,4 +31,5 @@ body{
     line-height: 150%;
 
     color: #0A3871;
+    resize: none;
 }
