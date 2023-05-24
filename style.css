@@ -96,18 +96,10 @@ aside p {
     font-weight: 400;
     font-size: 24px;
     line-height: 150%;
-    /* or 24px */
-
     text-align: center;
-
-    /* Gray/gray-400 */
-
     color: #495057;
-   
-
   }
 aside p:first-of-type {
     font-weight: bold;
-    
   }
   
