@@ -9,25 +9,35 @@
     <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    <script src="codigo.js"></script>
     <div class="container">
         <main>
-            
-            <img src="/imagenes/Logo.png" alt="Logo alura" class="logo">
-            <textarea placeholder="Ingrese el texto aqui" class="textarea" ></textarea>
-        </main>
-        <div class="aside">
-            <div class="aside_centrado">
-                <aside>
-                    <img src="imagenes/Muñeco.png" alt="muñeco" class="muñeco">
-                    <p>Ningun mensaje fue encontrado</p>
-                    <p>ingresa el texto que desees encriptar o desencriptar</p>
-                    
-                </aside>
+            <div class="logo">
+                <h1>
+                    <img src="/imagenes/Logo.png" alt="Logo alura" class="logo-image">
+                </h1>
             </div>
+            <div class="textyboto">
+                <textarea placeholder="Ingrese el texto aquí" ></textarea>
+                <div class="botones">
+                    <button id="encriptar">Encriptar</button>
+                    <button id="desencriptar">Desencriptar</button>
+                </div>        
+            </div>
+        </main>
+        <div class="aside_margen">
+            <aside>
+                <div class="aside_centrado">
+                    <img src="imagenes/Muñeco.png" alt="muñeco" class="muñeco">
+                    <p>Ningún mensaje fue encontrado</p>
+                    <p>Ingrese el texto que desee encriptar o desencriptar</p>     
+                </div>
+            </aside>
+            
         </div>
-       
-      </div>
-     
+
+   
+    </div>
+      
+    <script src="codigo.js"></script>
 </body>
 </html>
