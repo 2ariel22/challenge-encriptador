@@ -13,12 +13,13 @@
         <main>
             <div class="logo">
                 <h1>
-                    <img src="/imagenes/Logo.png" alt="Logo alura" class="logo-image">
+                    <img src="/imagenes/alura.png" alt="Logo alura" class="logo-image">
                 </h1>
             </div>
             <div class="textyboto">
-                <textarea placeholder="Ingrese el texto aquí" ></textarea>
-                <div class="botones">
+                <textarea placeholder="Ingrese el texto aquí" id="textarea"></textarea>
+                <div>
+                    <i class="fa-solid fa-circle-exclamation"> <b> solo letras minusculas y sin acentos</b></i>
                     <button id="encriptar">Encriptar</button>
                     <button id="desencriptar">Desencriptar</button>
                 </div>        
@@ -31,6 +32,9 @@
                     <p>Ningún mensaje fue encontrado</p>
                     <p>Ingrese el texto que desee encriptar o desencriptar</p>     
                 </div>
+                <div class="texto_procesado">
+                    <p>olaaa</p>
+                </div>
             </aside>
             
         </div>
@@ -39,5 +43,7 @@
     </div>
       
     <script src="codigo.js"></script>
+    <script src="https://kit.fontawesome.com/72c14db2ae.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
